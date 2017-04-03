@@ -31,7 +31,7 @@ import io.swagger.client.api.*;
 import io.swagger.client.model.*;
 
 ApiClient a = new ApiClient();
-a.setBasePath("https://api-uat.dwolla.com");
+a.setBasePath("https://api-sandbox.dwolla.com");
 a.setAccessToken("a token");
 
 CustomersApi c = new CustomersApi(a);
