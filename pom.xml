@@ -102,6 +102,9 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
+          <annotationProcessors>
+            lombok.launch.AnnotationProcessorHider$AnnotationProcessor
+          </annotationProcessors>
         </configuration>
       </plugin>
     </plugins>
@@ -154,6 +157,11 @@
       <artifactId>junit</artifactId>
       <version>${junit-version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.16</version>
     </dependency>
   </dependencies>
   <properties>
